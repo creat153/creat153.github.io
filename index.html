@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clock.css">
+    <script type="text/javascript" src = "clock.js"></script>
+</head>
+	
+<body>
+    <div class = "clockbox">
+		<div id = "dialborder" class = "dialborderc">
+			<div id = "dial" class = "dialc"></div>
+			<div id = "dialshadow" class = "dialshadowc"></div>
+			<div class = "box1">
+			<ul class = "box2">
+				<li><span>12</span></li>
+				<li>.</li>
+				<li>.</li>
+				<li><span>3</span></li>
+				<li>.</li>
+				<li>.</li>
+				<li><span>6</span></li>
+				<li>.</li>
+				<li>.</li>
+				<li><span>9</span></li>
+				<li>.</li>
+				<li><span>.</span></li>
+			</ul>
+		</div>
+		</div>
+		
+		<div id = "milliseconddial" class = "milliseconddialc"></div>
+		<div id = "millisecondhand" class = "millisecondhandc"></div>
+		<div id = "mpot" class = "mpotc"></div>
+        <div id = "hourhand" class = "hourhandc"></div>
+        <div id = "minutehand" class = "minutehandc"></div>
+        <div id = "secondhand" class = "secondhandc"></div>
+        <div id = "displayclock" class = "displayclockc">
+			<div id = "displaytime" class = "displaytimec"></div>
+		</div>
+        <div id = "pot" class = "potc"></div>
+    </div>
+	<script>
+		let scale1 = document.querySelector('.box2').querySelectorAll('li');
+		console.log(scale1.length);
+		for(let i = 0;i<scale1.length;i++){
+			let a = i*30+"deg"
+			scale1[i].style.transform = "rotate("+ a +")";
+		}
+		let scale2 = document.querySelectorAll('span')
+			console.log(scale2.length);
+		for(let i = 0;i<scale2.length;i++){
+			let a = i*-90+"deg"
+			scale2[i].style.transform = "rotate("+ a +")";
+	}
+	</script>
+	
+	
+</body>
+</html>

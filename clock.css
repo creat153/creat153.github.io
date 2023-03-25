@@ -1,0 +1,196 @@
+/* CSS Document */
+/*html{*/
+/*	background:#ba2191*/
+/*		linear-gradient(#2b21ba, #ba2191);*/
+	
+/*}*/
+.clockbox{
+	width: 500px;
+    height: 700px;
+    position: relative;
+    margin: 0 auto;
+	border-radius: 20px;
+	background: #859bdb;
+	box-shadow: 10px 10px 15px #000000,
+				-5px -5px 5px #6989e8;
+}
+.dialborderc{
+	
+	overflow: hidden;
+	width: 450px;
+	height: 450px;
+	background: #E99F9F;
+	position: absolute;
+    left: 25px;
+    top: 25px;
+	border-radius: 500px;
+	box-shadow: 0px 0px 15px #8599ae inset;
+	
+}
+.dialc{
+	width: 750px;
+    height: 750px;
+    background-image: linear-gradient(#2b21ba , #ba2191 60%);
+    position: absolute;
+    left: -150px;
+    top: -150px;
+	transform: rotate(0deg);
+/*	transform-origin:375px 375px;*/
+	box-shadow: 15px 15px 1px  #8599ae inset;
+}
+.dialshadowc{
+/*	overflow: hidden;*/
+	width: 450px;
+	height: 450px;
+/*	background: #1AAF9F;*/
+	position: absolute;
+/*    left: 25px;*/
+/*    top: 25px;*/
+	border-radius: 500px;
+	box-shadow: 4px 4px 15px #000000 inset;
+}
+.hourhandc{
+	position: absolute;
+	left: 235px;
+	top:215px;
+	width: 30px;
+	height:150px;
+/*	background: #5ACFCD;*/
+	transform: rotate(0deg);
+	transform-origin:15px 35px;
+	border-radius:4px;
+	box-shadow: inset 1px 1px 30px #5ACFCD,
+            inset -1px -2px 10px #ffd6d6;
+}
+.minutehandc{
+	position: absolute;
+	left: 240px;
+	top:205px;
+	width: 20px;
+	height: 200px;
+	transform: rotate(0deg);
+	transform-origin:10px 45px;
+	border-radius: 4px;
+	background: #3f84a2;
+	box-shadow: inset 1px 1px 20px #5ACFCD,
+            inset -1px -2px 5px #ffd6d6;
+}
+.secondhandc{
+	position: absolute;
+	left: 246px;
+	top:195px;
+/*	background: #C73D40;*/
+	width: 8px;
+	height: 250px;
+	transform: rotate(0deg);
+	transform-origin:4px 55px;
+	border-radius:4px;
+	box-shadow: inset 1px 1px 5px #ffd6d6,
+            inset -1px -2px 2px #ffd6d6;
+}
+.potc{
+	width: 16px;
+	height: 16px;
+	background: #FFFFFF;
+	position: absolute;
+	left: 242px;
+	top:242px;
+	border-radius: 50%;
+/*	border-radius:4px;*/
+/*	background: #C73D40;*/
+/*	box-shadow: 0px 2px 2px #ffd6d6 inset;*/
+}
+.milliseconddialc{
+	width: 70px;
+	height: 70px;
+/*	background-image: linear-gradient(#2b21ba 50%, #ba2191 50%);*/
+	background: #40B8A4;
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px #000000 inset;
+	opacity:0.5;
+}
+.millisecondhandc{
+	width: 2px;
+	height: 27px;
+	background: #C3344A;
+	position: absolute;
+	left: 334px;
+	top:335px;
+	transform: rotate(180deg);
+	transform-origin:1px 0px;
+}
+.mpotc{
+	width: 6px;
+	height: 6px;
+	background: #FFFFFF;
+	position: absolute;
+	left: 332px;
+	top:332px;
+/*
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+*/
+	border-radius: 50%;
+}
+.displayclockc{
+	width: 450px;
+	height: 80px;
+	top: 500px;
+	left: 25px;
+	position: absolute;
+	background: #E3F0EF;
+	border-radius: 15px;
+	box-shadow: 3px 3px 10px #000000 inset;
+}
+.displaytimec{
+	margin:20px;
+	text-align: center;
+	color: #40B8A4;
+	font-size:30px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+.box1{
+			width: 450px;
+			height: 450px;
+/*			background: #A42023;*/
+			position: absolute;
+		}
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		width: 30px;
+		height: 225px;
+/*		background: #4B70D4;*/
+		list-style: none;
+		position: absolute;
+		text-align: center;
+		color: #F1F1F1;
+		left: 210px;
+		transform: rotate(90deg);
+		transform-origin:15px 225px;
+		font-size: 25px;
+		
+	}
+	span{
+		display: inline-block;
+		transform: rotate(-90deg);
+		text-align: center;
+		font-weight: 700;
+/*		transform-origin:10px 225px;	*/
+	}
+	
+
+
+
+
+
+
+
